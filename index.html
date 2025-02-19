@@ -1,16 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <style>
+    .body {
+      background-color: orange;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
+
+    .header {
+      text-align: center;
+      color: orange;
+      background-color: white;
+    }
+
+    .border-kam {
+      font-size: 50px;
+    }
+
+    border-menu {
+      font-size: 25px;
+    }
+
+    .menu {
+      background-color: white; 
+      display: inline-block;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 25px;
+      border-radius: 10px; 
+      padding: 10px;
+    }
+    .name-menu{
+      font-size: 20px; 
+      color: orange;
+    }
+
+    .img-1 {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 75px;
+    }
+
+  </style>
 </head>
 
-<body>
-  Hello world
-  <script src="script.js"></script>
+<body class="body">
+  <div class="header">
+    <div>
+      <h1 class="border-kam">KAM</h1>
+    </div>
+    <div>
+      <h2 class="border-menu">Menu</h2>
+    </div>
+  </div>
+  
+  <div class="menu">
+    <div class="preview-img">
+      <img src="mix.jpg" class="img-1" </div>
+      <div class="name-menu"">
+      <b>Pizdec blya</b>
+    </div>
+    <div class=" menu-price"">5$</div>
+  </div>
+
+  <div class="menu">
+    <div class="preview-img">
+      <img src="hz.jpg" class="img-1" </div>
+      <div class="name-menu"">
+      <b>Red-fish</b>
+    </div>
+    <div class=" menu-price"">3.15$</div>
+  </div>
+
+  <div class="menu">
+    <div class="preview-img">
+      <img src="norm.webp" class="img-1" </div>
+      <div class="name-menu"">
+      <b>Vkusna</b>
+    </div>
+    <div class=" menu-price"">7.50$</div>
+  </div>
+
 </body>
 
 </html>
